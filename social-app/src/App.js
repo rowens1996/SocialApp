@@ -1,5 +1,12 @@
 import logo from './logo.svg';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
+import toastr from 'toastr';
+import 'toastr/build/toastr.min.css';
 import './App.css';
+
+
 
 function App() {
   return (
@@ -15,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React test
         </a>
       </header>
     </div>
